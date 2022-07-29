@@ -1,0 +1,25 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            // start coding here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2922#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:13: error: '.class' expected
+            System.out.println(words[]);
+                                      ^
+    1 error
+  time: Wed, 01 Jun 2022 21:31:59 UTC
+record: -1
